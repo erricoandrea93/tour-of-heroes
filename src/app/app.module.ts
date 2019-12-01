@@ -8,13 +8,15 @@ import {FormsModule} from '@angular/forms';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ContactsComponent } from './contacts/contacts.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    ContactsComponent
+    ContactsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
